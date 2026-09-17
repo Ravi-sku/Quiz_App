@@ -1,0 +1,50 @@
+.container{
+width: 640px;
+margin: auto;
+margin-top: 150px;
+background: white;
+color: rgb(46, 39, 39);
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 10px;
+padding: 40px 50px;
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+    margin: 0;
+    li{
+    border: 1px rgb(26, 24, 24) solid;
+       padding: 5px;
+       border-radius: 10px;
+       list-style: none;
+       cursor: pointer;
+       padding-left: 10px;
+
+       
+    }      
+     .correct{
+        background-color: rgb(85, 190, 63);
+       }
+       .wrong{
+        background-color: rgb(152, 33, 33);
+       }
+}
+button{
+width: 120px;
+margin: auto;
+padding: 4px 5px;
+border-radius: 5px;
+border: none;
+background: #0c62bdb9;
+color: aliceblue;
+font-size: 20px;
+cursor: pointer;
+}
+.index{
+    margin: auto;
+    font-size: 15px;
+}
+}
